@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="./../estilos/estilos.css">
+</head>
+<body class="body-presupuesto">
+    <header>
+        <nav>
+            <div>
+                <h1><a href="./../index.html"  class="cursiva">Relojeria Phoenix</a></h1>
+            </div>
+            <div class="lista-header">
+                 <ul>
+                    <li><a href="./galeria.html" class="boton-galeria2">Galeria</a></li>
+                    <li><a href="./presupuesto.html" class="boton-presupuesto2">Presupuesto</a></li>
+                    <li><a href="./contacto.html" class="boton-contacto2">¡Contacta con nosotros!</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-presupuesto">
+        <div class="contenedor-presupuesto">
+            <h2 class="titulo-presupuesto">¡¡Dejanos tus dudas y en la brevedad nos comunicamos contigo!!</h2> 
+            <form action="#" method="post" class="fomrulario">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" id="telefono">
+                <label for="comentario">Dejanos tus dudas:</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
+                <label for="checkbox" class="politica">Acepta la “Política de privacidad" de la empresa</label><input type="checkbox" name="checkbox" id="checkbox" required checked>
+                <button type="submit" class="boton-formulario">Enviar</button>
+            </form>
+        </div>  
+    </main>
+    <hr class="raya-presupuesto">
+    <footer class="footer-presupuesto">
+        <div class="copy">
+            <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+            <div class="final">
+                <a href="./../views/contacto.html">¡Contacta con nosotros!</a>      
+            </div>    
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/?hl=es" target="_blank"><img class="logo-instagram"  src="./../assets/imagenes/iconos-08.png" alt="instagram" width="138" height="138"></a>
+            <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img class="logo-facebook" src="./../assets/imagenes/icono-fb.png" alt="facebook" width="137" height="138"></a>
+        </div>
+    </footer>
+</body>
+ 

@@ -1,0 +1,517 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.cursiva{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.cursiva{
+    font-family: "Great Vibes";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 17px 0 0 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-presentacion{
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*----------------- Estilos del header --------------------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    z-index: 1;
+    
+}
+
+.lista-header{
+    display: flex;
+    margin-right: 50px;
+}
+
+.lista-header ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.lista-header li a{
+    text-decoration: none;
+    color: black;
+}
+
+.imagen-header{
+    background-image: url(./../assets/imagenes/reloj-en-mesa.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items:end;
+    position: relative;
+    justify-content:center;
+}
+
+.texto-header{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 50%; 
+    margin-bottom: 50px;
+}
+
+.tamaño-parrafoh{
+    width: 700px;
+    padding-left: 100px;
+}
+
+.boton2{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(248, 250, 250, 0.144);
+    padding: 10px; 
+    border-radius: 40px;
+}
+
+.boton-index, .boton-index2, .boton-index3{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.boton-index:hover, .boton-index2:hover, .boton-index3:hover{
+    background-color:#e1e5e5 ;
+}
+
+/* --------- Estilos Main------- */
+
+.primer-texto{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e5e5;
+    border-radius: 30px;
+}
+
+
+.description1{
+    text-align: center;
+    padding: 0 40px 30px 40px;
+}
+
+.titulo1{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    margin:40px;  
+}
+
+.uno{
+    background-image: url(./../assets/imagenes/reloj-marron.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.dos{
+    background-image: url(./../assets/imagenes/reloj-cuero.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.tres{
+    background-image: url(./../assets/imagenes/mano-mujer.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px; 
+    border-radius: 10px;  
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 30px 30px 30px;
+
+}
+
+.parrafos{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-dos{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    border-top: 1px solid black;
+    margin: 0 400px;
+}
+
+.productos{
+font-family: "Yanone Kaffeesatz", sans-serif;
+/* font-optical-sizing: auto; */
+font-weight: 300;
+font-style: normal;
+font-size: 50px;
+}
+
+.opcion-fotos{
+    background-color: #e1e5e5;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.titulo-reloj{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 38px;
+    padding: 10px 10px 50px 10px;
+    text-decoration: none;
+    color: black;
+}
+.titulo-reloj3{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 38px;
+    text-decoration: none;
+    color: black;
+    margin-top: 70px;
+}
+
+.titulo-reloj2{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 38px;
+    text-decoration: none;
+    color: black;
+  margin-top: 30px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+
+.texto2{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    padding-top: 50px ;
+}
+
+
+.texto3{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    padding-top: 50px ;
+}
+
+
+.sacar-enlaces{
+    text-decoration: none;
+}
+
+
+/* --------Estilos en Footer------- */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+
+}
+
+.logo-instagram, .logo-facebook{
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.copy a{
+    text-decoration: none;
+    color:black;
+    margin: 0 10px;
+}
+
+.caja-imagenes{
+    margin-bottom: 100px;
+}
+
+.raya{
+    width: 95%;
+    margin: auto;
+}
+
+/* ----------Estilo Galeria--------- */
+.header-clas{
+    display: flex;
+}
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    height: 300px;
+    /* background-color: brown; */
+    align-items: end;
+    justify-content: center;
+}
+
+.titulo-galeria{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: #e1e5e5;
+    padding: 30px;
+    border-radius: 30px; 
+}
+
+
+/* ----------- Estilos Main (Galeria) -------------- */
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 100%;
+    justify-content: center;
+}
+
+.imagenes{
+    width: 400px;
+    height: 700px;
+    background-color:#e1e5e5 ;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.imagen1{
+    width: 400px;
+    height: 270px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.texto-galeria{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    margin: 20px;
+}
+
+.texto-precio{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    margin-top: 50px;
+}
+
+.enlaces-galeria{
+    text-decoration: none;
+}
+
+.boton-galeria{
+    background-color: #e1e5e5;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/* .boton-galeria:hover{
+    background-color: transparent;
+    border: 1px solid black;
+} */
+
+.boton-presupuesto, .boton-contacto{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.boton-presupuesto:hover, .boton-contacto:hover{
+    background-color:#e1e5e5 ;
+}
+
+/* --------------Estilos presupuesto-------------- */
+
+
+.boton-presupuesto2, .boton-contacto2 , .boton-galeria2{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.boton-galeria2:hover, .boton-contacto2:hover{
+    background-color:#e1e5e5 ;
+}
+
+.boton-presupuesto2{
+    background-color: #e1e5e5;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.body-presupuesto{
+    background-image: url(./../assets/imagenes/mano-portatil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.main-presupuesto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    align-items: center;
+}
+.titulo-presupuesto{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-top: 50px;
+    align-items: center;
+}
+.contenedor-presupuesto{
+    /* display: flex; */
+    justify-content: center;
+    width: 850px;
+    height: 750px;
+    background-color: rgba(255, 255, 255, 0.096);
+    border-radius: 40px;
+    /* margin-top: 100px; */
+    align-items: center;
+}
+
+.fomrulario{
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#name, #apellido, #email, #telefono{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#comentario{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#checkbox{
+    margin-top: 10px;
+}
+
+
+label{
+    margin-top: 10px;
+}
+
+.boton-formulario{
+    margin-top: 20px;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
